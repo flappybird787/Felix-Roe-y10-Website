@@ -15,39 +15,6 @@ img {
     image-rendering: crisp-edges;
 }
 
-/* The hero section styling for the digi part */
-.digiHero {
-    background-image: url('images/DigiHeader.svg');
-    height: 25vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-/* The hero section styling for the main part */
-.mainHero {
-    background-image: url('images/websiteHeaderMain.svg');
-    height: 25vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-/* BIG text styling for the hero section text */
-.hero-text {
-    font-size: 4em;
-    font-weight: bold;
-}
 
 /* nice big font on a banner style background */
 .topic-title{
