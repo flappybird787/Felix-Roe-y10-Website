@@ -15,9 +15,23 @@ img {
     image-rendering: crisp-edges;
 }
 
-/* The hero section styling- use your OWN Hero Image URL here */
-.hero {
-    background-image: url('images/websiteHeader.svg');
+/* The hero section styling for the digi part */
+.digiHero {
+    background-image: url('images/DigiHeader.svg');
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* The hero section styling for the main part */
+.mainHero {
+    background-image: url('images/DigiHeader.svg');
     height: 25vh;
     background-size: cover;
     background-position: center;
@@ -79,3 +93,25 @@ img {
     text-align: center;
     padding: 3em 3em;
 }
+
+/* styling for buttons */
+.button{
+    background-color: rgb(90, 85, 100);
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+
+.button:hover {
+    background-color: rgb(110, 105, 110);
+    color: white;
+  }
+
+
+
