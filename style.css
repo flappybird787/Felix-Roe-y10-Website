@@ -12,6 +12,7 @@ html {
 /* reset for images to ensure they ar 100% of the parent container width */
 img {
     width: 100%;
+    image-rendering: crisp-edges;
 }
 
 /* The hero section styling- use your OWN Hero Image URL here */
