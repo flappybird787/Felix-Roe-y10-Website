@@ -31,7 +31,7 @@ img {
 
 /* The hero section styling for the main part */
 .mainHero {
-    background-image: url('images/DigiHeader.svg');
+    background-image: url('images/websiteHeaderMain.svg');
     height: 25vh;
     background-size: cover;
     background-position: center;
