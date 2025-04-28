@@ -35,6 +35,16 @@ img {
     margin: 3em auto;
 }
 
+.index-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6em;
+    /* bring the whole section in off the sides of the page */
+    width: 70%;
+    /* top margin of 3em and center right/left */
+    margin: 3em auto;
+}
+
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
     background-color: rgb(90, 85, 90);
